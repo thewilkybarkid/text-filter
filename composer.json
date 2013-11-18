@@ -1,0 +1,28 @@
+{
+    "name": "thewilkybarkid/text-filter",
+    "type": "library",
+    "description": "Standardised text filter interface",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chris Wilkinson",
+            "email": "chriswilkinson84@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpspec/phpspec": "~2.0@beta"
+    },
+    "autoload": {
+        "psr-0": {
+            "TheWilkyBarKid\\TextFilter\\": "src/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
