@@ -12,11 +12,10 @@
 namespace spec\TheWilkyBarKid\TextFilter\Exception;
 
 use PhpSpec\ObjectBehavior;
-use Prophecy\Argument;
 
 class TextFilterFailedExceptionSpec extends ObjectBehavior
 {
-    function it_is_initializable()
+    public function it_is_initializable()
     {
         $this->shouldHaveType('TheWilkyBarKid\TextFilter\Exception\TextFilterFailedException');
         $this->shouldBeAnInstanceOf('RuntimeException');
