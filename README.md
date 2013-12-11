@@ -3,7 +3,9 @@ TextFilter
 
 This library provides a standard interface (`TheWilkyBarKid\TextFilter\TextFilter`) for text filters. The interface defines a single method, `filter()`, which takes a string and returns a (presumably modified) string.
 
-That in itself isn't particularly useful, but it does open up some interesting possibilities:
+That in itself isn't particularly useful, but it does open up some interesting possibilities.
+
+It also provides some adapters, allowing you to indirectly use libraries through the interface.
 
 Chaining filters
 ----------------
