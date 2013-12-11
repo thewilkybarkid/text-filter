@@ -7,6 +7,25 @@ That in itself isn't particularly useful, but it does open up some interesting p
 
 It also provides some adapters, allowing you to indirectly use libraries through the interface.
 
+Installation
+------------
+
+ 1. Add TextFilter to your dependencies:
+
+        // composer.json
+
+        {
+           // ...
+           "require": {
+               // ...
+               "thewilkybarkid/text-filter": "~1.0@dev"
+           }
+        }
+
+ 2. Use Composer to download and install TextFilter:
+
+        $ php composer.phar update thewilkybarkid/text-filter
+
 Chaining filters
 ----------------
 
