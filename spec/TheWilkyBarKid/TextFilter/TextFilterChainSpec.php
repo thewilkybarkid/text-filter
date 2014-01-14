@@ -15,6 +15,7 @@ use ArrayObject;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 use SplPriorityQueue;
+use stdClass;
 use TheWilkyBarKid\TextFilter\TextFilter;
 
 class TextFilterChainSpec extends ObjectBehavior
@@ -56,7 +57,7 @@ class TextFilterChainSpec extends ObjectBehavior
 
     public function it_should_reject_something_that_is_not_an_array_nor_a_traversable()
     {
-        foreach (array('foo', null, false, $this) as $test) {
+        foreach (array('foo', null, false, new stdClass()) as $test) {
             $this->shouldThrow('InvalidArgumentException')->during('__construct', array($test));
         }
     }
@@ -122,7 +123,7 @@ class TextFilterChainSpec extends ObjectBehavior
 
     public function it_should_reject_non_strings()
     {
-        foreach (array(1, false, $this) as $test) {
+        foreach (array(1, false, new stdClass()) as $test) {
             $this->shouldThrow('InvalidArgumentException')->during('filter', array($test));
         }
     }
