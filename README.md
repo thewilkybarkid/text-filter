@@ -1,6 +1,8 @@
 TextFilter
 ==========
 
+[![Build Status](https://travis-ci.org/thewilkybarkid/text-filter.png?branch=master)](https://travis-ci.org/thewilkybarkid/text-filter)
+
 This library provides a standard interface (`TheWilkyBarKid\TextFilter\TextFilter`) for text filters. The interface defines a single method, `filter()`, which takes a string and returns a (presumably modified) string.
 
 That in itself isn't particularly useful, but it does open up some interesting possibilities.
