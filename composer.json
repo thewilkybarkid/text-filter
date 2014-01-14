@@ -9,6 +9,9 @@
             "email": "chriswilkinson84@gmail.com"
         }
     ],
+    "require": {
+        "php": ">=5.3.3"
+    },
     "require-dev": {
         "doctrine/cache": "~1.0",
         "ezyang/htmlpurifier": "~4.0",
