@@ -3,6 +3,10 @@
     "type": "library",
     "description": "Standardised text filter interface",
     "license": "MIT",
+    "homepage": "https://github.com/thewilkybarkid/text-filter",
+    "support": {
+        "issues": "https://github.com/thewilkybarkid/text-filter/issues"
+    },
     "authors": [
         {
             "name": "Chris Wilkinson",
