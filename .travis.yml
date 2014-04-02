@@ -14,4 +14,4 @@ matrix:
 before_script:
   - composer install --prefer-source
 
-script: ./bin/phpspec run
+script: ./bin/phpspec run --format=pretty
