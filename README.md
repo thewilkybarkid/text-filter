@@ -20,7 +20,7 @@ Installation
            // ...
            "require": {
                // ...
-               "thewilkybarkid/text-filter": "~1.0@dev"
+               "thewilkybarkid/text-filter": "~1.0"
            }
         }
 
